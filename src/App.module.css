@@ -1,0 +1,81 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 1em 2em;
+}
+
+.header {
+	font-size: 1.5rem;
+	text-decoration: underline;
+	font-weight: 500;
+	margin-bottom: 1rem;
+}
+
+.content {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 1rem;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.thead th {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.tbody td:nth-child(1) {
+	text-align: start;
+	display: flex;
+	align-items: center;
+}
+
+.tbody td {
+	padding: 0.5rem;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+
+.select {
+	padding: 0.25rem;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	width: 80%;
+}
+
+.button {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.saveButton {
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	border: 2px solid black;
+}
+
+.saveButton:hover {
+	background-color: white;
+	color: black;
+}
